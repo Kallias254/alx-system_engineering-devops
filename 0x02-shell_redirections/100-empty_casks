@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty name print
+find . -empty -name | printf "%\n"
